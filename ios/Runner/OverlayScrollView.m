@@ -54,7 +54,6 @@ heightForRowAtIndexPath:(NSIndexPath*)indexPath {
                                          green:UNIT_RAND
                                           blue:UNIT_RAND
                                          alpha:0.30 * UNIT_RAND];
-  cell.textLabel.text = [@"iOS " stringByAppendingString: [@(indexPath.row) stringValue]];
   return cell;
 }
 
